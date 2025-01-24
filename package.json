@@ -106,10 +106,6 @@
     "@rollup/rollup-linux-x64-gnu": "^4.28.1",
     "@rollup/rollup-win32-x64-msvc": "^4.28.1"
   },
-  "workspaces": [
-    "client",
-    "test/fixtures/**/*"
-  ],
   "build": {
     "entries": [
       "./src/utils"
