@@ -2,13 +2,13 @@
   "name": "nuxt-i18n-micro",
   "version": "1.71.0",
   "description": "Nuxt I18n Micro is a lightweight, high-performance internationalization module for Nuxt, designed to handle multi-language support with minimal overhead, fast build times, and efficient runtime performance.",
-  "repository": "efipeek/nuxt-i18n-micro",
+  "repository": "s00d/nuxt-i18n-micro",
   "license": "MIT",
   "type": "module",
   "author": {
-    "name": "efipeek",
+    "name": "s00d",
     "email": "Virus191288@gmail.com",
-    "url": "https://efipeek.github.io/"
+    "url": "https://s00d.github.io/"
   },
   "keywords": [
     "nuxt",
@@ -22,9 +22,9 @@
     "seo",
     "nuxt3"
   ],
-  "homepage": "https://github.com/efipeek/nuxt-i18n-micro",
+  "homepage": "https://github.com/s00d/nuxt-i18n-micro",
   "bugs": {
-    "url": "https://github.com/efipeek/nuxt-i18n-micro/issues"
+    "url": "https://github.com/s00d/nuxt-i18n-micro/issues"
   },
   "exports": {
     ".": {
@@ -106,6 +106,10 @@
     "@rollup/rollup-linux-x64-gnu": "^4.28.1",
     "@rollup/rollup-win32-x64-msvc": "^4.28.1"
   },
+  "workspaces": [
+    "client",
+    "test/fixtures/**/*"
+  ],
   "build": {
     "entries": [
       "./src/utils"
