@@ -47,6 +47,7 @@
     "internals.d.ts"
   ],
   "scripts": {
+    "prepare": "nuxt-module-build build",
     "prepack": "pnpm --filter \"./packages/**\" run build && nuxt-module-build build --stub && nuxt-module-build prepare && nuxt-module-build build && pnpm run client:build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
